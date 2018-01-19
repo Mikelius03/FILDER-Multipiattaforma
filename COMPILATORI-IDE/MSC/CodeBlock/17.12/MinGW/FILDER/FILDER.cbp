@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FILDER" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FILDER" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FILDER" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../../../../../SORGENTI/FileDirectory/FileDirectory.h" />
+		<Unit filename="../../../../../../SORGENTI/FileDirectory/MYErrno.h" />
+		<Unit filename="../../../../../../SORGENTI/FileDirectory/MYHeader.h" />
+		<Unit filename="../../../../../../SORGENTI/FileDirectory/MyPrint.h" />
+		<Unit filename="../../../../../../SORGENTI/FileDirectory/mySAL.h" />
+		<Unit filename="../../../../../../SORGENTI/FileDirectory/my_chdir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/FileDirectory/my_getcwd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/LinuxFunction/findfirst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/LinuxFunction/findfirst.h" />
+		<Unit filename="../../../../../../SORGENTI/LinuxFunction/spec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/LinuxFunction/spec.h" />
+		<Unit filename="../../../../../../SORGENTI/MYErrno.h" />
+		<Unit filename="../../../../../../SORGENTI/MYHeader.h" />
+		<Unit filename="../../../../../../SORGENTI/MotoreFILDER/MYErrno.h" />
+		<Unit filename="../../../../../../SORGENTI/MotoreFILDER/MYHeader.h" />
+		<Unit filename="../../../../../../SORGENTI/MotoreFILDER/MotoreFILDER.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/MotoreFILDER/MyFilder.h" />
+		<Unit filename="../../../../../../SORGENTI/MotoreFILDER/elencoFilder.h" />
+		<Unit filename="../../../../../../SORGENTI/MotoreFILDER/function2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/MotoreFILDER/myFile.h" />
+		<Unit filename="../../../../../../SORGENTI/MotoreFILDER/searchF.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/MyFilder.h" />
+		<Unit filename="../../../../../../SORGENTI/argumentSet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../../SORGENTI/version.h" />
+		<Extensions>
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" use_define="0" update_manifest="1" do_auto_increment="1" ask_to_increment="0" language="C" svn="0" svn_directory="" header_path="..\..\..\..\..\SORGENTI\version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="..\..\..\..\..\DOCUMENTATION\ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

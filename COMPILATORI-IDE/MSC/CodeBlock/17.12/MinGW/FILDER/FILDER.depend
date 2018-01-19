@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1516315078 source:d:\prove multi ide\filder\sorgenti\argumentset.c
+	"./MotoreFILDER/MyFilder.h"
+
+1516316087 d:\prove multi ide\filder\sorgenti\motorefilder\myfilder.h
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<io.h>
+	<direct.h>
+	"MyFilder.h"
+	"MYErrno.h"
+	"../FileDirectory/FileDirectory.h"
+	"../LinuxFunction/findfirst.h"
+
+1516230853 d:\prove multi ide\filder\sorgenti\motorefilder\myerrno.h
+	<errno.h>
+
+1516313736 d:\prove multi ide\filder\sorgenti\filedirectory\filedirectory.h
+	"MYHeader.h"
+	"MYErrno.h"
+	<limits.h>
+	<fcntl.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<direct.h>
+	<io.h>
+	<unistd.h>
+
+1515366278 d:\prove multi ide\filder\sorgenti\filedirectory\myheader.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1515074575 d:\prove multi ide\filder\sorgenti\filedirectory\myerrno.h
+	<errno.h>
+
+1516314420 d:\prove multi ide\filder\sorgenti\linuxfunction\findfirst.h
+	<sys/types.h>
+	<stdint.h>
+	<time.h>
+
+1516230852 source:d:\prove multi ide\filder\sorgenti\filedirectory\my_chdir.c
+	"FileDirectory.h"
+
+1516230852 source:d:\prove multi ide\filder\sorgenti\filedirectory\my_getcwd.c
+	"FileDirectory.h"
+
+1516374128 source:d:\prove multi ide\filder\sorgenti\linuxfunction\findfirst.c
+	<sys/types.h>
+	<sys/stat.h>
+	<stdlib.h>
+	<libgen.h>
+	<limits.h>
+	<dirent.h>
+	<stdint.h>
+	<string.h>
+	<errno.h>
+	<fcntl.h>
+	<time.h>
+	<alloca.h>
+	"findfirst.h"
+	"spec.h"
+
+1515423880 d:\prove multi ide\filder\sorgenti\linuxfunction\spec.h
+
+1515423880 source:d:\prove multi ide\filder\sorgenti\linuxfunction\spec.c
+	<string.h>
+	"spec.h"
+
+1516312207 source:d:\prove multi ide\filder\sorgenti\main.c
+	"./MotoreFILDER/MyFilder.h"
+
+1516311635 source:d:\prove multi ide\filder\sorgenti\motorefilder\function2.c
+	"MyFilder.h"
+
+1516313005 source:d:\prove multi ide\filder\sorgenti\motorefilder\motorefilder.c
+	"MyFilder.h"
+
+1516230852 source:d:\prove multi ide\filder\sorgenti\motorefilder\searchf.c
+	"MyFilder.h"
+
